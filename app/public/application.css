@@ -1,0 +1,15 @@
+
+body {
+  background: no-repeat linear-gradient(#AFF5FF, #FFF);
+  min-height: 400px;
+}
+
+h1 {
+  margin-bottom: 10%;
+}
+
+.dashboard-buttons {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
