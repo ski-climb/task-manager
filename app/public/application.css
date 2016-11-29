@@ -1,15 +1,40 @@
 
 body {
-  background: no-repeat linear-gradient(#AFF5FF, #FFF);
-  min-height: 400px;
+  background: url('mountain_cropped.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 500px;
 }
 
-h1 {
-  margin-bottom: 10%;
-}
-
-.dashboard-buttons {
-  width: 50%;
+.wrapper {
+  background-color: rgba(250, 250, 250, .8);
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 90%;
   margin: 0 auto;
-  text-align: center;
 }
+
+a {
+  color: #333;
+  font-size: 1.5em;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper:hover {
+  background-color: rgba(200, 200, 200, .8);
+}
+
+.wrapper:hover a {
+  color: #FFF;
+}
+
+.title-button {
+  display: block;
+  min-width: 120px;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
